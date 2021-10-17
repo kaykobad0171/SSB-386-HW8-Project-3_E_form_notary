@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: nexa;
+
+}
+/*header start*/
+
+header{
+	/*border: 1px solid;*/
+	margin: 15px 0;
+}
+.wrapper{
+	width: 70%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content{}
+.logo{
+	/*border: 1px solid green;*/
+	width: 15%;
+	float: left;
+}
+.logo_img{}
+.logo_img img{
+	width: 100%;
+}
+
+.menu{
+	width: 65%;	
+}
+.menu ul{
+	/*border: 1px solid blue;*/
+	margin: 0;
+	float: right;
+	padding: 5px 0;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	float: right;
+	display: inline-block;
+	margin: 15px 0;
+	transition: 0.2s;
+	color: #9A2F37;
+}
+.menu ul li a:hover{
+	color: #4D5255;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+
+/*header end*/
+
+.banner{
+	
+
+}
+.bg_img{
+	background-image: url("b_img.jpg");
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+
+}
+.content2{
+
+}
+.b_h1{
+	color: #C0213D;
+}
+.b_h1 h1{}
+.b_text{}
+.b_text p{
+	line-height: 23px;
+}
+
+.button{}
+.button button{
+	background-color: #C0213D;
+	border: none;
+	border-radius: 2px;
+	padding: 8px;
+	color: white;
+	letter-spacing: 1px;
+	transition: 0.3s;
+}
+
+.button button:hover{
+	background-color: #636468;
+}
